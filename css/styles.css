@@ -33,12 +33,6 @@ ol {
 img {
     display: block;
 }
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -54,6 +48,14 @@ img {
     letter-spacing: 0.03em;
     color: var( --secondary-text-color)
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -64,6 +66,54 @@ img {
     width: 1px !important;
     overflow: hidden;
   }
+
+/* ==================================COMPONENTS================================= */
+.logo {
+    margin-right: 93px;  
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.social-list {
+    display: flex;
+   justify-content: center;
+}
+.social-list-item:not(:last-child){
+    margin-right: 10px;
+}
+.social-list-icon {
+    width: 20px;
+    height: 20px;    
+}
+
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
+    fill: #AFB1B8;
+    transition: fill var(--transition-duration) var(--timing-function);
+    transition: background-color var(--transition-duration) var(--timing-function);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--accent-color);
+    fill: var(--additional-text-color)
+}
+
 /* ==================================header================================= */
 .header-menu {
     display: flex;
@@ -87,21 +137,7 @@ img {
     margin-right: 50px;
 }
 
-.logo {
-    margin-right: 93px;  
 
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #000000;
-}
-
-.logo-accent {
-    color: var(--accent-color);
-}
 
 .menu-link {
     display: block;
@@ -351,35 +387,7 @@ img {
     padding-bottom: 30px;
    
 }
-.social-list-icon {
-    width: 20px;
-    height: 20px;    
-}
-.social-list {
-    display: flex;
-   justify-content: center;
-}
-.social-list-item:not(:last-child){
-    margin-right: 10px;
-}
-.social-list-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: transparent;
-    fill: #AFB1B8;
-    transition: fill var(--transition-duration) var(--timing-function);
-    transition: background-color var(--transition-duration) var(--timing-function);
-}
 
-.social-list-link:hover,
-.social-list-link:focus {
-    background-color: var(--accent-color);
-    fill: var(--additional-text-color)
-}
 
 /* ===========================Customers=================================== */
 .clients-list {
@@ -420,13 +428,7 @@ img {
 .footer-logo {
     margin-bottom: 20px;
 }
-.logo-footer {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+.logo.footer {
     color: var(--additional-text-color);
 }
 
@@ -470,12 +472,7 @@ img {
     height: 20px; 
     fill: var(--additional-text-color)   
 }
-.footer-social-list {
-    display: flex;
-}
-.footer-social-item:not(:last-child){
-    margin-right: 10px;
-}
+
 .footer-social-link {
     display: flex;
     align-items: center;
