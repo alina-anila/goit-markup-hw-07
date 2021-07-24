@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body class="page">
     <!--header-->
@@ -17,25 +17,25 @@
        <div class="container">
            <div class="header-menu">
                 <nav class="menu">
-                    <a class="logo" href="./index.html"> <span class="logo-accent">Web</span>Studio</a>
-                    <ul class="menu-item">
-                        <li class="item"><a class="menu-link current" href="./index.html">Студия</a></li>
-                        <li class="item"><a class="menu-link"  href="./portfolio.html">Портфолио</a></li>
-                        <li class="item"><a class="menu-link" href="#">Контакты</a></li>
+                    <a class="logo site__logo" href="./index.html"> <span class="logo__accent">Web</span>Studio</a>
+                    <ul class="menu-item header__menu-item">
+                        <li class="menu-item__item"><a class="menu-item__link menu-item__link_current" href="./index.html">Студия</a></li>
+                        <li class="menu-item__item"><a class="menu-item__link"  href="./portfolio.html">Портфолио</a></li>
+                        <li class="menu-item__item"><a class="menu-item__link" href="#">Контакты</a></li>
                             
                     </ul>
                 </nav>
             
-                <ul class="contacts-list">
-                    <li class="item">
-                        <a href="mailto:info@devstudio.com" class="contacts-links">
-                            <svg class="icon" width=16px height=12px>
+                <ul class="contacts-list header__contact-list">
+                    <li class="contacts-list__item">
+                        <a href="mailto:info@devstudio.com" class="contacts-list__links">
+                            <svg class="contacts-list__icon" width=16px height=12px>
                                 <use href="./images/sprite.svg#icon-envelope"></use>
                             </svg>info@devstudio.com</a> 
                     </li>
-                    <li class="item">
-                        <a href="tel:+380961111111" class="contacts-links">
-                            <svg class="icon" width=10px height=16px>
+                    <li class="contacts-list__item">
+                        <a href="tel:+380961111111" class="contacts-list__links">
+                            <svg class="contacts-list__icon" width=10px height=16px>
                                 <use href="./images/sprite.svg#icon-smartphone"></use>
                             </svg>+38 096 111 11 11</a>
                     </li>
@@ -58,45 +58,45 @@
         <section class="stenghth-section">
             <div class="container">
                 <!--<h2>Сильные стороны</h2>-->
-                <ul class="strengths-list">
-                    <li class="strengths-item">
-                        <div class="strengths-icon-container">
-                            <svg class="strengths-icon" width=70px height=70px>
+                <ul class="strengths-list main__strengths-list">
+                    <li class="strengths-list__item">
+                        <div class="strengths-list__icon-container">
+                            <svg class="strengths-list__icon" width=70px height=70px>
                                 <use href="./images/sprite.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="strengths-title">Внимание к деталям</h3>
-                        <p class="strenghts-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="strengths-list__title">Внимание к деталям</h3>
+                        <p class="strengths-list__description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
             
-                    <li class="strengths-item">
-                        <div class="strengths-icon-container">
-                            <svg class="strengths-icon" width=70px height=70px>
+                    <li class="strengths-list__item">
+                        <div class="strengths-list__icon-container">
+                            <svg class="strengths-list__icon" width=70px height=70px>
                                 <use href="./images/sprite.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="strengths-title">Пунктуальность</h3>
-                        <p class="strenghts-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="strengths-list__title">Пунктуальность</h3>
+                        <p class="strengths-list__description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
                             
-                    <li class="strengths-item">
-                        <div class="strengths-icon-container">
-                            <svg class="strengths-icon" width=70px height=70px>
+                    <li class="strengths-list__item">
+                        <div class="strengths-list__icon-container">
+                            <svg class="strengths-list__icon" width=70px height=70px>
                                 <use href="./images/sprite.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="strengths-title">Планирование</h3>
-                        <p class="strenghts-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="strengths-list__title">Планирование</h3>
+                        <p class="strengths-list__description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
                         
-                    <li class="strengths-item">
-                        <div class="strengths-icon-container">
-                            <svg class="strengths-icon" width=70px height=70px>
+                    <li class="strengths-list__item">
+                        <div class="strengths-list__icon-container">
+                            <svg class="strengths-list__icon" width=70px height=70px>
                                 <use href="./images/sprite.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="strengths-title">Современные технологии</h3>
-                        <p class="strenghts-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="strengths-list__title">Современные технологии</h3>
+                        <p class="strengths-list__description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
@@ -282,45 +282,45 @@
         <section class="clients section">
            <div class="container">
                <h2 class="title">Постоянные клиенты</h2>
-               <ul class="clients-list">
-                   <li class="clients-item">
-                       <a class="clients-link" href="#">
-                           <svg class="clients-icon" width=41px height=47px> 
+               <ul class="clients-list clients__list">
+                   <li class="clients-list__item">
+                       <a class="clients-list__link" href="#">
+                           <svg class="clients-list__icon" width=41px height=47px> 
                                <use href="./images/sprite.svg#icon-coone"></use>
                            </svg>
                        </a>
                    </li>
-                   <li class="clients-item">
-                       <a class="clients-link" href="#">
-                           <svg class="clients-icon" width=40px height=52px>
+                   <li class="clients-list__item">
+                       <a class="clients-list__link" href="#">
+                           <svg class="clients-list__icon" width=40px height=52px>
                                <use href="./images/sprite.svg#icon-cotwo"></use>
                            </svg>
                        </a>
                    </li>
-                   <li class="clients-item">
-                       <a class="clients-link" href="#">
-                           <svg class="clients-icon" width=44px height=41px>
+                   <li class="clients-list__item">
+                       <a class="clients-list__link" href="#">
+                           <svg class="clients-list__icon" width=44px height=41px>
                                <use href="./images/sprite.svg#icon-cothree"></use>
                            </svg>
                        </a>
                    </li>
-                   <li class="clients-item">
-                       <a class="clients-link" href="#">
-                           <svg class="clients-icon" width=85px height=41px>
+                   <li class="clients-list__item">
+                       <a class="clients-list__link" href="#">
+                           <svg class="clients-list__icon" width=85px height=41px>
                                <use href="./images/sprite.svg#icon-cofour"></use>
                            </svg>
                        </a>
                    </li>
-                   <li class="clients-item">
-                       <a class="clients-link" href="#">
-                           <svg class="clients-icon" width=106px height=60px >
+                   <li class="clients-list__item">
+                       <a class="clients-list__link" href="#">
+                           <svg class="clients-list__icon" width=106px height=60px >
                                <use href="./images/sprite.svg#icon-cofive"></use>
                            </svg>
                        </a>
                    </li>
-                   <li class="clients-item">
-                       <a class="clients-link" href="#">
-                           <svg class="clients-icon" width=106px height=60px>
+                   <li class="clients-list__item">
+                       <a class="clients-list__link" href="#">
+                           <svg class="clients-list__icon" width=106px height=60px>
                                <use href="./images/sprite.svg#icon-cosix"></use>
                            </svg>
                        </a>
@@ -336,7 +336,7 @@
         <div class="container footer-container">
             <div class="contacts-footer">
                 <div class="footer-logo">
-                    <a class="logo footer" href="./index.html"> <span class="logo-accent">Web</span>Studio</a>
+                    <a class="logo footer__logo" href="./index.html"> <span class="logo__accent">Web</span>Studio</a>
                 </div>
                 <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
                 <ul class="footer-contacts">
